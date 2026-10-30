@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>AdminSpec</AssemblyName>
+    <RootNamespace>AdminSpec</RootNamespace>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+      <OutputPath>$(MSBuildProjectDirectory)\Release\AdminSpec\</OutputPath>
+      <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+      <DebugType>none</DebugType>
+      <DebugSymbols>false</DebugSymbols>
+      <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+      <GenerateDependencyFile>true</GenerateDependencyFile>
+      <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CounterStrikeSharp.API" Version="1.0.378" />
+  </ItemGroup>
+</Project>
