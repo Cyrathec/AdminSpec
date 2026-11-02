@@ -39,7 +39,7 @@ Download the release [here](https://github.com/Cyrathec/AdminSpec/releases/lates
 
 Put  AdminSpec.zip here :
 ```text
-game/csgo/addons/counterstrikesharp/plugins/AdminSpec/
+game/csgo/addons/counterstrikesharp/plugins/
 ```
 
 Unzip the file :
